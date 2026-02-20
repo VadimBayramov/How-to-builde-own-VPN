@@ -41,7 +41,7 @@ Let user be like God:
 sudo usermod -aG sudo user_name
 
 Create folder for ssh key:
-sudo mkdir /home/user_name/.ssh
+sudo mkdir -p /home/plaque/.ssh
 
 Copy and Paste your ssh to home folder of user_name
 sudo cp /root/.ssh/authorized_keys /home/user_name/.ssh/
